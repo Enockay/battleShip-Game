@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleShip-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+           <h2 class="heading">BATTLESHIP-GAME</h2>
+            <p class="para">Have you heard about the battleShip Game can try to compete with the AI generated model </p>
+            <p class="info">AI has been a threat to human beings of late try for once and save the HumanBeings in the opposit 
+                battleShip before the computer eradicates all of Them i wish the very Best
+            </p>
+            <form class="form">
+                <label for="name"class="label">Enter your Name::</label>
+                <input type="text" class="playerName"required placeholder="enter playerName">
+                <button class="submit">SUBMIT</button>
+            </form>
+
+       <div class="playerSetting">
+          <div class="player1">
+            <h3 class="player">PLAYER NAME</h3>
+            <table class="table1">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                  <th>7</th>
+                  <th>8</th>
+                  <th>9</th>
+                  <th>10</th>
+                </tr>
+              </thead>
+              <tbody id ="grid"></tbody>
+            </table>
+          </div>
+
+          <div class="player2">
+            <div class="description">
+               <h4 class="head">THE AI MODULE(COMPUTERIZE).</h4>
+               <table class="table2">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                  </tr>
+                </thead>
+                <tbody id ="Grid"></tbody>
+              </table>
+            </div>
+            </div>
+            <div class="coordinates">
+              <label for="code">AI Possible CODES:</label>
+              <p id ="para"></p>
+          </div>
+        
+          </div>
+       </div>
+    </div>
+    <script type="module" src="../src/dom.js"></script>
+    <script type="module" src="../src/script.js"></script>
+</body>
+</html>

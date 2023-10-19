@@ -1,0 +1,77 @@
+body,html{
+    background-color: #1d2434;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.heading{
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+    
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-style:inherit;
+    font-weight: 500;
+}
+.playerSetting{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    height: 35rem;
+}
+.player1{
+    border: 1px solid blue;
+    width: 50%;
+ 
+}
+.player2{
+   width: 50%;
+   border: 1px solid blue;;
+
+}
+.head,.player{
+    text-align: center;
+    color: cyan;
+}
+.playerName{
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+}
+.submit{
+    font-size: 1.2rem;
+    background-color:red;
+    border-radius: 0.5rem;
+    font-style: italic;
+    cursor: pointer;
+}
+.label{
+    color:rgb(243, 248, 248);
+    font-size: 1.2rem;
+    font-style: italic;
+}
+form{
+    margin-bottom: 1.2rem;
+}
+.info{
+    color:rgb(228, 198, 27)
+}
+table{
+    border-collapse: collapse;
+    margin-left: 5rem;
+    background-color: beige;
+    cursor: pointer;
+}
+th,td{
+    border: 1px solid rgb(33, 33, 36);
+    width: 34px;
+    height: 34px;
+    text-align: center;
+}
+.coordinates{
+    color :rgb(228, 198, 27)
+}
