@@ -1,15 +1,23 @@
 {
   "name": "battleship-game",
   "version": "1.0.0",
+  "repository": {
+    "url" : "git + https://github.com/enockay/battleShip-Game.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
